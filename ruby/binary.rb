@@ -12,5 +12,5 @@ def binary_search(array, target)
   end
 end
 
-arr = [2,4,5,6,7,9,12];
-p binary_search(arr, 7)
+# arr = [2,4,5,6,7,9,12];
+# p binary_search(arr, 7)
