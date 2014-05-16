@@ -1,14 +1,16 @@
 def binary_search(array, target)
-  location = array.length / 2
+  mid = array.length / 2
 
-  if array[location] == target
-    return location
-  elsif array[location] > target
-    halved_array = array[0...array.length / 2]
-    return binary_search(halved_array, target)
+  if array[mid] == target
+    return mid
+  elsif array[mid] > target
+    lower_half = array[0...mid]
+    return binary_search(lower_half, target)
   else
-    halved_array = array[(array.length / 2)..-1]
-    return location += binary_search(halved_array, target)
+    upper_half = array[mid..-1]
+    return mid += binary_search(upper_half, target)
   end
 end
 
+arr = [2,4,5,6,7,9,12];
+p binary_search(arr, 7)
