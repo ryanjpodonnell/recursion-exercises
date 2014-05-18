@@ -35,12 +35,12 @@ describe "#deep_dup" do
     #This shows that #dup does not deeply dup, as it alters the original.
     expect(copy1).to eq(original)
     
-    #This shows that #deep_dup does, as it does NOT alter the original.
+    #This shows that #deep_dup does, as it is NOT altered when the original is.
     expect(copy2).to_not eq(original)
   end
   
   it "should call itself recursively when the given array contains arrays" do
     should_receive(:deep_dup).at_least(:twice).and_call_original
-    expect(deep_dup([1, 2, [3]])).to eq([1, 2, [3]]) 
+    deep_dup([1, 2, [3]])
   end
 end
