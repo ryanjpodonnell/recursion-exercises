@@ -1,3 +1,4 @@
+# add binary search method here
 def binary_search(arr, target):
     if not arr:
         return None 
@@ -12,7 +13,8 @@ def binary_search(arr, target):
     else:
         upper_half = arr[(mid + 1):]
         index = binary_search(upper_half, target)
-        if index is None:
-            return None
-        return mid + 1 + index
+        return None if index is None else (mid + 1 + index)
+
         
+arr = [3,6,9,12,15,18];
+print binary_search(arr, 3)
