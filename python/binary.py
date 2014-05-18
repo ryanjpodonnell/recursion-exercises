@@ -16,5 +16,5 @@ def binary_search(arr, target):
         return None if index is None else (mid + 1 + index)
 
         
-arr = [3,6,9,12,15,18];
-print binary_search(arr, 3)
+# arr = [3,6,9,12,15,18]
+# print binary_search(arr, 3)
