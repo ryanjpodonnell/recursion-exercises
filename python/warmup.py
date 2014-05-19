@@ -1,7 +1,7 @@
-def range(first, last):
+def recRange(first, last):
     if first == last:
         return [first]
     else:
-        return [first] + range(first + 1, last)
+        return [first] + recRange(first + 1, last)
         
-# print range(-4,10)
+# print recRange(-4,10)
