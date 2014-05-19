@@ -1,4 +1,3 @@
-
 def subsets(arr)
   if arr.empty?
     return [[]]
