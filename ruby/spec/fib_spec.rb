@@ -1,4 +1,4 @@
-require_relative "../ruby/fib"
+require_relative "../fib"
 
 describe "#fib_recursive" do
   # 0 1 1 2 3 5 8 13 21 -- For Reference

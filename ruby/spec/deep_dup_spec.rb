@@ -1,4 +1,4 @@
-require_relative "../ruby/deep_dup"
+require_relative "../deep_dup"
 
 describe "#deep_dup" do
   let(:original) { [1, [2], [3, [4]]] }
