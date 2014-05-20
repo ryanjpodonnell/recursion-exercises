@@ -1,4 +1,4 @@
-require_relative "../ruby/binary"
+require_relative "../binary"
 
 describe "#binary_search" do
   let(:odd_arr) { [2,4,5,6,7,9,12] }

@@ -1,4 +1,4 @@
-require_relative "../ruby/make_change"
+require_relative "../make_change"
 
 describe "#make_change" do
   let(:murica) { [25, 10, 5, 1] }

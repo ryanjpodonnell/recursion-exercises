@@ -1,4 +1,4 @@
-require_relative '../ruby/exponent'
+require_relative '../exponent'
 
 describe "#exponent1" do
   it "should calculate the value of an exponent, given the base and power" do

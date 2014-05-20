@@ -1,4 +1,4 @@
-require_relative "../ruby/merge_sort"
+require_relative "../merge_sort"
 
 describe "#merge_sort" do
   let(:arr) { [1, 3, 5, 7, 9, 8, 6, 4, 2, 0] }
