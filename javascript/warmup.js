@@ -7,9 +7,9 @@ Array.prototype.myEach = function(func) {
 	return this;
 };
 
-console.log(NUMS.myEach(function(element){
-	console.log(element * 2)
-}));
+// console.log(NUMS.myEach(function(element){
+// 	console.log(element * 2)
+// }));
 
 
 Array.prototype.myMap = function(func) {
@@ -22,9 +22,9 @@ Array.prototype.myMap = function(func) {
 	return mappedArray;
 };
 
-console.log(NUMS.myMap(function(el) {
-	return el * 2;
-}));
+// console.log(NUMS.myMap(function(el) {
+// 	return el * 2;
+// }));
 
 
 Array.prototype.myInject = function(func) {
@@ -37,9 +37,9 @@ Array.prototype.myInject = function(func) {
 	return result;
 };
 
-console.log(NUMS.myInject(function(total, item) {
-	return total + item;
-}));
+// console.log(NUMS.myInject(function(total, item) {
+// 	return total + item;
+// }));
 
 
 Array.prototype.transpose = function() {
@@ -57,7 +57,7 @@ Array.prototype.transpose = function() {
   return columns;
 };
 
-console.log([[0, 1, 2], [3, 4, 5], [6, 7, 8]].transpose());
+// console.log([[0, 1, 2], [3, 4, 5], [6, 7, 8]].transpose());
 
 
 Array.prototype.bubbleSort = function () {
