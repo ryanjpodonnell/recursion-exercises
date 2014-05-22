@@ -1,4 +1,4 @@
-def recRange(first, last):
+def rec_range(first, last):
     if first == last:
         return [first]
     else:
@@ -15,3 +15,12 @@ def sum(arr):
         return arr.pop() + sum(arr)
         
 # print sum([5,6,7,8])
+
+def iter_sum(arr):
+    total = 0
+    for n in arr:
+        total += n
+    
+    return total
+    
+# print iter_sum([1,2,3,4])

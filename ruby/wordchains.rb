@@ -1,8 +1,6 @@
 require 'set'
 
 class WordChains
-
-
   def initialize
   end
 
